@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- jquery cdn link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="/static/css/header.css">
+  <!-- icons cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <!-- javascript link -->
+  <script src="./JavaScript/Manglaview.js"></script>
+  <!-- bootstrap cdn link -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+  <!-- Script for button click -->
+  <script>
+    function redirectToUrl() {
+          window.location.href = "https://book.themangalview.com/booking/book-rooms-themangalviewresidency";
+    }
+  </script>
+    
+    <style>
+       *{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.first-nav {
+    opacity: 1;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+   
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+  }
+  
+
+  nav ul li:last-child {
+    margin-right: 0;
+    margin-right: 70px;
+    top: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .social-icons {
+    display: flex;
+    
+  }
+  
+  .social-icons a {
+    margin-left: 20px;
+  }
+  
+  .social-icons a i {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  @media only screen and (max-width: 700px) {
+  
+    .first-nav {
+      opacity: 1;
+      display: flex;
+      justify-content: end;
+      width: 100%;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+      
+    }
+  }
+
+
+  /* main navigation bar start */
+  
+  .Main_navbar {
+    position: absolute;
+    width: 100%;
+    top: 48px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color:white;
+  }
+  .logo{   
+    display: flex;
+    justify-content: center;
+    left: 0;
+     top: 0;
+     height: 100px;
+    width: 30%;
+    align-items: center;
+
+
+  }
+  
+  .logo a img {
+    text-align: center;
+    vertical-align: center;
+
+    width: 250px;
+    height: 55px;
+  }
+  .pages{
+    width: 70%;
+    text-align: center;
+  }
+  
+  .navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   align-items: center;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .navigation li {
+    margin-right: 20px;
+  }
+  
+  .navigation li:last-child {
+    margin-right: 0;
+  }
+  
+  .navigation li a {
+    color:darkblue;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .last-butn{
+    padding-left: 60px;
+  }
+  .navigation li a:hover {
+  color: orangered;
+  }
+  .book-butn1{
+    background-color: orangered;
+    color: white;
+    width: 130px;
+    height: 45px;
+    font-size: 18px;
+    border: solid white 1px;
+    border-radius: 25px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .Main_navbar {
+      width: 100%;
+      top: 48px;
+      height: auto;
+      display: block;
+      align-items: center;
+  
+      background-color: rgba(231, 228, 228, 0.2);
+     
+    }
+    .pages{
+      width: 100%;
+      
+      text-align: center;
+      display: block;
+    }
+     
+  .navigation {
+    list-style: none;
+    margin-top: -100px;
+   align-items: center;
+    display: block;
+    justify-content: center;
+     }
+  .logo{   
+    display: block;
+    justify-content: start;
+    height: 100px;
+    width: 20%;
+  }
+   
+  .logo a img {
+    width: 150px;
+    height: 35px;
+  }
+
+  } 
+        
+    </style>
+</head>
+<body>
+    
+    
+       <div class="header_section">
+        <nav class="first-nav">
+          <ul>
+             <li class="social-icons">
+              
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </nav>
+      <!-- main navigation bar start  -->
+      
+      <nav class="Main_navbar">
+        <div class="logo">
+          <a href="#"><img src="/static/images/logo image(1).png" alt="Logo"></a>
+        </div>
+      
+        <div class="pages">
+        <ul class="navigation">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/templates/ourstory.html">Our Story</a></li>
+          <li><a href="/templates/facilities1.html">Rooms & Facilities </a></li>
+          <li><a href="/templates/restaurant.html">Dining</a></li>
+          <li><a href="/templates/events1.html">Gallery</a></li>
+          <li><a href="/templates/contact1.html">Contact Us</a></li>
+          <li class="last-butn"><a href="#"><button class="book-butn1" onclick="redirectToUrl()">Book Your Stay</button></a></li>
+        </ul>
+        </div>
+      </nav>
+    </div>
+    
+
+
+</body>
+</html>
