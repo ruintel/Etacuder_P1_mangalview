@@ -353,10 +353,6 @@ margin-top: -150px;
   align-items: center;
   flex-wrap: wrap;
 }
-
-
-
-
 .leftdiv{
   height: 590px;
   width: 450px;
@@ -411,6 +407,133 @@ margin-top: -150px;
   }
 }
 /* -------------------------------------------- */
+ /* rooms and suits section start */
+
+  .rooms_facility_wala_section{
+    height: 650px;
+    width: 100%;
+  }
+  .heading_para{
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    padding-left: 110px;
+    color: rgb(68, 13, 13);
+  }
+  .main_wala_heading{
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 110px;
+  }
+  .rooms_and_suits{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 30rem;
+    width: 100%;
+  }
+  .big_div_no1{
+    height: 100%;
+    width: 42%;
+    border-radius: 15px;
+    background-color: rgb(228, 225, 225);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .big_div_no1 img{
+    height: 100%;
+    width: 100%;
+    transition:transform 0.5s;
+    border-radius: 15px;
+  }
+  .big_div_no1:hover img{
+    transform: scale(1.2);
+  }
+
+  .small_div_no2{
+    height: 100%;
+    width: 19%;
+    margin-left: 25px;
+    border-radius: 15px;
+    background-color:  rgb(228, 225, 225);
+    overflow: hidden;
+  }
+  .small_div_no2 img{
+    height: 100%;
+    width: 100%;
+    transition:transform 0.5s;
+    border-radius: 15px;
+  }
+  .small_div_no2:hover img{
+    transform: scale(1.2);
+  }
+  .small_div_no3{
+    height: 100%;
+    width: 19%;
+    margin-left: 25px;
+    border-radius: 15px;
+    background-color:  rgb(228, 225, 225);
+    overflow: hidden;
+  }
+  .small_div_no3 img{
+    height: 100%;
+    width: 100%;
+    transition:transform 0.5s;
+    border-radius: 15px;
+  }
+  .small_div_no3:hover img{
+    transform: scale(1.2);
+  }
+
+
+/* second row  */
+.second_row{
+  display: flex;
+   justify-content: center;
+   height: auto;
+   width: 100%; 
+   
+}
+
+.texty_div{
+  height: auto;
+  width: 42%;
+  position: relative;
+  z-index: 5;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: start;
+  margin-top: -50px;
+  
+}
+.texty_div1{
+  height: auto;
+  width: 19%;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+  color:white;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: -50px;
+}
+.texty_div2{
+  height: auto;
+  width: 19%;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: -50px;
+}
+/* rooms ans suits section end */
+
+
 /* -------------------------------------------------------------- */
 /* facilities text cards start */
 .facilities_hrline{
@@ -502,6 +625,60 @@ img{
   }
 
 }
+
+  /* facilities horizontal section start here */
+
+.ameniteis-image-text-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 25rem;
+  width: 100%;
+
+}
+
+
+  
+  .image-container {
+    height: 18rem;
+    width: 40%;
+    background-color: gray;
+    border-radius: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+  
+  .text-container {
+    width: 35%;
+    height: 18rem;
+    padding-right:25px ;
+    padding-left: 20px;
+  }
+  
+  .text-container h2 {
+    padding-top: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .text-container p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgb(107, 107, 107);
+  }
+  .text-container p1{
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: rgb(68, 13, 13);
+  }
+
+
 /*------------------------------------------------------------------------------  */
  /*facilities image card section start */
 
