@@ -436,7 +436,6 @@ margin-top: -150px;
   .big_div_no1{
     height: 100%;
     width: 42%;
-    border-radius: 15px;
     background-color: rgb(228, 225, 225);
     overflow: hidden;
     position: relative;
@@ -446,7 +445,6 @@ margin-top: -150px;
     height: 100%;
     width: 100%;
     transition:transform 0.5s;
-    border-radius: 15px;
   }
   .big_div_no1:hover img{
     transform: scale(1.2);
@@ -456,7 +454,6 @@ margin-top: -150px;
     height: 100%;
     width: 19%;
     margin-left: 25px;
-    border-radius: 15px;
     background-color:  rgb(228, 225, 225);
     overflow: hidden;
   }
@@ -464,7 +461,6 @@ margin-top: -150px;
     height: 100%;
     width: 100%;
     transition:transform 0.5s;
-    border-radius: 15px;
   }
   .small_div_no2:hover img{
     transform: scale(1.2);
@@ -473,7 +469,6 @@ margin-top: -150px;
     height: 100%;
     width: 19%;
     margin-left: 25px;
-    border-radius: 15px;
     background-color:  rgb(228, 225, 225);
     overflow: hidden;
   }
@@ -481,7 +476,6 @@ margin-top: -150px;
     height: 100%;
     width: 100%;
     transition:transform 0.5s;
-    border-radius: 15px;
   }
   .small_div_no3:hover img{
     transform: scale(1.2);
