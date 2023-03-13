@@ -548,7 +548,7 @@ margin-top: -150px;
 .myfiest{
   text-align: center;
   font-size: 38px;
-  font-weight: 600;
+  font-weight: 300;
   color: rgb(68, 13, 13);
   opacity: 0.8;
 }
@@ -572,28 +572,25 @@ margin-top: -150px;
   
 }
 .title{
-  /* color: #978667; */
-   color: black;
+   color: #978667; 
    padding-top: 30px;
    font-size: 20px;
    font-weight: 600;
   opacity: 0.8;
 }
 .title1{
-  /* color: #978667; */
-   color: black;
+   color: #978667; 
    padding-top: 25px;
    font-size: 20px;
    font-weight: 600;
   opacity: 0.8;
 }
 .title3{
-  /* color: #978667; */
-   color: black;
+   color: #978667; 
    padding-top: 26px;
    font-size: 20px;
    font-weight: 600;
-  opacity: 0.8;
+   opacity: 0.8;
 }
 
 #imficon01{
