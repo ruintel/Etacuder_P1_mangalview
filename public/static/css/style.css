@@ -533,7 +533,7 @@ margin-top: -150px;
 }
 /* rooms ans suits section end */
 
-
+/* -------------------------------------------- */
 /* -------------------------------------------------------------- */
 /* facilities text cards start */
 .facilities_hrline{
@@ -543,64 +543,79 @@ margin-top: -150px;
   margin: 100px auto;
  }
 .mysecion02{
-  /* background-color: rgb(223, 205, 188); */
   min-height: 1100px;
 }
 .myfiest{
   text-align: center;
-  font-size: 40px;
-  font-weight: 200;
+  font-size: 38px;
+  font-weight: 600;
   color: rgb(68, 13, 13);
-  /* background-color: yellow; */
+  opacity: 0.8;
 }
 .facility_text_section{
   color: gray;
-  /* background-color: yellow; */
   margin-top: 80px;
   display: flex;
-  justify-content: space-around;
-  border: none;
+  justify-content: space-evenly;
   box-sizing: border-box;
 }
-.card {
-  display: flex;
-  flex-direction: column;
+.card_of_facility {
   align-items: center;
-  justify-content: center;
-  /* color: gray; */
- 
   font-weight: 200;
-  width: 250px;
+  width: 200px;
   height: auto;
-  border: none;
-  border-radius: 10px;
-  padding: 20px;
+  padding: 0px;
 }
 .card p{
   color: rgb(104, 103, 103);
+  opacity: 0.6;
+  
 }
-.card h3{
-  color: rgb(68, 13, 13);
-  font-weight: 200;
+.title{
+  /* color: #978667; */
+   color: black;
+   padding-top: 30px;
+   font-size: 20px;
+   font-weight: 600;
+  opacity: 0.8;
+}
+.title1{
+  /* color: #978667; */
+   color: black;
+   padding-top: 25px;
+   font-size: 20px;
+   font-weight: 600;
+  opacity: 0.8;
+}
+.title3{
+  /* color: #978667; */
+   color: black;
+   padding-top: 26px;
+   font-size: 20px;
+   font-weight: 600;
+  opacity: 0.8;
 }
 
 #imficon01{
-height: 100px;
+height: 65px;
 opacity: 0.7;
+width: 115px;
 }
 img{
-  width: 150px;
-  height: 80px;
+  width: 120px;
+  height: 60px;
   color: gray;
+  opacity: 0.8;
 }
 
   
 
 #imficon03{
-
-  width: 100px;
-  height: 90px;
+  color: gray;
+  width: 80px;
+  height: 65px;
   opacity: 0.6;
+  
   
 }
 
