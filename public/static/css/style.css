@@ -147,7 +147,7 @@
     width: 150px;
     height: 45px;
     font-size: 18px;
-    border: solid #ec784c;
+    border: solid #ec784c 1px;
     border-radius: 25px;
     margin-left: 300px;
   }
