@@ -195,18 +195,7 @@
 
   }
 
-  /* sticky navbar */
-  nav.sticky{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: black;
-    color: white;
-   
-  }
-  nav.sticky li a {
-    color: white;
-    }
+
 
 /* main video section div start */
 .videocontainer{
