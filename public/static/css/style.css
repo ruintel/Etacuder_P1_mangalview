@@ -428,10 +428,9 @@ margin-top: -150px;
     padding-left: 110px;
     color: rgb(68, 13, 13);
   }
-  .main_wala_heading{
-    font-size: 40px;
-    font-weight: 600;
-    padding-left: 110px;
+  .weight
+  {
+    font-weight: 300;
   }
   .rooms_and_suits{
     margin-top: 50px;
