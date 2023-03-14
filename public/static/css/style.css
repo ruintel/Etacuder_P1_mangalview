@@ -143,19 +143,19 @@
   }
   .book-butn1{
     background-color: white;
-    color: rgb(206, 96, 56);
-    width: 130px;
+    color: #ec784c;
+    width: 150px;
     height: 45px;
     font-size: 18px;
-    border: solid rgb(206, 96, 56);
+    border: solid #ec784c;
     border-radius: 25px;
     margin-left: 300px;
   }
 
   .book-butn1:hover{
-    background-color:  rgb(206, 96, 56);
+    background-color:  #ec784c;
     color: white;
-    border: solid white 2px;
+    border: solid white 1px;
   }
   @media only screen and (max-width: 700px) {
     .Main_navbar {
