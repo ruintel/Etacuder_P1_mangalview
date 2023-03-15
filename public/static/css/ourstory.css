@@ -1,0 +1,150 @@
+
+/* --------------------------------------- */
+  /* our story css start */
+  /* -------------------------------------- */
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body{
+    min-height: auto;
+    /* display: block; */
+   
+    /* background-color: #f1f1f1; */
+  }
+  .sty_about_section{
+    /* border: solid black 1px; */
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    height: 650px;
+    align-items: center;
+    flex-wrap: wrap;
+    border: solid black 1px;
+  }
+  
+  .background_image_div{
+    /* background: url(/static/images/hotel_logo-min.jpeg) no-repeat left; */
+    /* background-size: 100%; */
+    /* background-color: #fdfdfd; */
+    /* overflow: hidden; */
+    /* align-items: center; */
+    height: 650px;
+    width: 50%;
+    /* width: 55%; */
+    padding-top:50px;
+    background-color: red;
+    /* flex-wrap: wrap; */
+    /* border: solid black 1px; */
+    box-sizing: border-box;
+  }
+  .background_image_div img{
+    height: 100%;
+    width: 95%;
+    box-sizing: border-box;
+  }
+  
+  .inner-container{
+    width: 50%;
+     height:650px; 
+     
+    /* float: right; */
+    /* border: solid black 1px; */
+    background-color: #fdfdfd;
+    padding: 100px;
+    /* border-left: none; */
+  box-shadow: rgba(14, 30, 37, 0.8) 2px 2px 1px 2px;
+  
+  }
+  .inner-container h1{
+    margin-bottom: 80px;
+    font-size: 100px;
+    font-weight: 1000;
+  }
+  
+  .text{
+    font-size: 12px;
+    color: #545454;
+    line-height: 30px;
+    /* text-align: justify; */
+    margin-bottom: 40px;
+    margin-top: -90px;
+    text-align: left;
+    
+    /* font-family: 'Tangerine', serif; */
+    /* font-family: 'Dancing Script',serif; */
+    
+  }
+  h1{
+  color: black;
+   font-family: 'Amita',serif;
+   font-size: 22px;
+  /* text-shadow: 0 0 3px orange, 0 0 5px orange; */
+  
+  }
+  
+  .skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  
+  @media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+  }
+  
+  @media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+  
+  }
+  span{
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  width: 500px;
+  }
+  span:hover{
+  background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
+  color: #fff;
+  border-radius: 20px;
+  transition: 0.5s;
+  
+  }
+  .active{
+  background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
+  color: #fff;
+  border-radius: 20px;
+  
+  
+  }
+  
+  .ourstory{
+    margin-top: -100px;
+    /* margin-right: 100px;  */
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 10px;
+  }
