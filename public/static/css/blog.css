@@ -170,6 +170,12 @@ height: auto;
     
 
 }
+.paragraph{
+  text-align: center;
+}
+.none{
+  list-style-type: none;
+}
 
 .testimonials{
     font-size: 40px;
