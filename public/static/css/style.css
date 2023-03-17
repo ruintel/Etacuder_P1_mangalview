@@ -243,24 +243,18 @@ width: 100%;
 position: relative;
 z-index: +2px;
 margin-top: -150px;
-/* background-color: #f5ce95; */
 
  }
  .all_cards_video{
   height: 250px;
   width: 250px;
   margin-left: 20px;
-  /* background-color: rgb(158, 184, 108); */
-  /* border: solid black 1px; */
  }
  .card_image_div{
   height: 200px;
   width: 100%;
-  /* background-color: yellow; */
  }
  .card_image_div {
-  /* padding: 50px; */
-  /* background-color: green; */
   transition: transform .2s;
   width: 250px;
   height: 200px;
@@ -268,8 +262,8 @@ margin-top: -150px;
 }
 
 .card_image_div:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
   transform: scale(1.5); 
 }
 
@@ -277,7 +271,6 @@ margin-top: -150px;
   height: 48px;
   width: 100%;
   box-sizing: border-box;
-  /* background-color: rgb(247, 165, 118); */
   background-color: rgb(223, 205, 188);
  }
  .card_text_div p{
@@ -335,8 +328,8 @@ margin-top: -150px;
         }
         
         .card_image_div:hover {
-          -ms-transform: scale(1.2); /* IE 9 */
-          -webkit-transform: scale(1.2); /* Safari 3-8 */
+          -ms-transform: scale(1.2); 
+          -webkit-transform: scale(1.2); 
           transform: scale(1.2); 
         }
     
@@ -355,7 +348,6 @@ margin-top: -150px;
  /* About us section start */
 
  .about-section{
-  /* border: solid black 1px; */
   display: flex;
   justify-content: center;
   height: 650px;
@@ -407,6 +399,9 @@ margin-top: -150px;
     height: auto;
     width: 100%;
     text-align: center;
+    background-color: rgb(223, 205, 188);
+    
+    
   }
   .rightdiv{
     margin-top: 50px;
@@ -490,6 +485,85 @@ margin-top: -150px;
   }
 
 
+
+
+/* media query for rooms and suits first row */
+@media only screen and (max-width: 700px) {
+.rooms_facility_wala_section{
+  height: auto;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  
+}
+
+
+.rooms_and_suits{
+margin-top: 0px;
+display: block;
+height: auto;
+width: 100%;
+text-align: center;
+
+}
+.big_div_no1{
+  height: 250px;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-top: 70px;
+}
+.big_div_no1 img{
+  height: 100%;
+    width: 100%;
+    transition:transform 0.5s;
+}
+.big_div_no1:hover img{
+  transform: scale(1.3);
+}
+
+.small_div_no2{
+  margin-top: 70px;
+  height: 250px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:  rgb(228, 225, 225);
+  overflow: hidden; 
+}
+.small_div_no2 img{
+  height: 100%;
+  width: 100%;
+  transition:transform 0.5s; 
+}
+.small_div_no2:hover img{
+  transform: scale(1.2);
+}
+.small_div_no3{
+  margin-top: 70px;
+  height: 250px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:  rgb(228, 225, 225);
+  overflow: hidden; 
+}
+.small_div_no3 img{
+  height: 100%;
+  width: 100%;
+  transition:transform 0.5s; 
+}
+.small_div_no3:hover img{
+  transform: scale(1.2);
+}
+
+}
+
+
+
+
 /* second row  */
 .second_row{
   display: flex;
@@ -532,6 +606,57 @@ margin-top: -150px;
   font-size: 35px;
   font-weight: 700;
   margin-top: -50px;
+}
+/* media query for rooms and suits second row */
+@media only screen and (max-width: 700px) {
+  .second_row{
+    display: block;
+    text-align: center;
+     height: 600px;
+     width: 90%; 
+     margin: auto;
+     margin-top: -680px;
+     
+  }
+  
+  .texty_div{
+     height: 30%;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 0px; 
+    padding-left: 15px;
+    
+  }
+  .texty_div1{
+    height: 30%;
+    width: 100%;
+    text-align: start;
+    position: relative;
+    z-index: 5;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 140px;
+    padding-left: 15px;
+  }
+  .texty_div2{
+    height: 20%;
+    width: 100%;
+    text-align: start;
+    position: relative;
+    z-index: 5;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 140px;
+    padding-left: 15px;
+  }
+
 }
 /* rooms ans suits section end */
 
@@ -628,15 +753,16 @@ img{
   .facility_text_section{
     display: block;    
     height: auto;
-
-  }
-  .card {
-    display: block;
+    width: 100%;
+ }
+  .card_of_facility{
     margin-top: 100px;
+    height: auto;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
   }
+
 
 }
 
@@ -645,35 +771,21 @@ img{
 .amenities-image-text-section{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
   height: 25rem;
   width: 100%;
 
 }
-.facility_carosal_left{
-  width: 40%;
-  height: 100%;
-  background-color: aqua;
+.circle_leftside_div{
+  width: 35%;
+  height: 20rem;
 }
 
-#text_sec_rt
-{
-  background-color: rgb(235, 222, 209);
-}
-#text_sec_din
-{
-  background-color: rgb(204, 193, 180);
-}
-  
-  
-  
-  .text-container {
+.text-container {
     width: 35%;
     height: 18rem;
     padding-right:25px ;
     padding-left: 20px;
-    background-color: aliceblue;
   }
   
   .text-container h2 {
@@ -690,16 +802,34 @@ img{
   .text-container p1{
     font-size: 13px;
     letter-spacing: 3px;
-    color: rgb(68, 13, 13);
   }
 
-#tc_right{
-  margin-right: 200px;
+
+
+@media only screen and (max-width: 700px) {
+  .amenities-image-text-section{
+    display: flex;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+  
+  }
+
+
+  .circle_leftside_div{
+    width: 100%;
+    height: 25rem;
+  }
+
+  .text-container {
+    width: 100%;
+    height: auto;
+    padding: 70px;
+  }
+
 }
 
-#tc_left{
-  margin-left: 200px;
-}
 
 /*------------------------------------------------------------------------------  */
  /*facilities image card section start */
@@ -714,8 +844,10 @@ img{
   
   }
   .pics-div {
-    height: 85%;
-    width: 25%;
+    /* height: 85%; */
+    /* width: 25%; */
+    height: 100%;
+    width: 70%;
     text-align: center;
     margin: auto;
     position: relative;
@@ -743,9 +875,7 @@ img{
     margin-top: 0px;
     padding-top: 0px;
     box-sizing: border-box;
-    text-align: center;
-    /* background-color: rgb(226, 210, 180); */
-    
+    text-align: center;    
   }
   .mysecion h2{
     padding-top: 0;
@@ -805,28 +935,23 @@ img{
 
     .cards-section02{
        display: block;
-      width: 90%;
+      width: 100%;
       height: auto;
       margin: auto;    
     }
     .pics-div {
-       width: 100%;
-      height: 407px;
+       width: 90%;
+      height: 85%;
       text-align: center;
       border: solid white 1px;
-      margin-top: 100px;
+      margin-top: 0px;
+      background-color: white;
     }
     .pics-div img {
-      height: 80%;
+      height: 100%;
       width: 100%; 
     }
-    .textdiv{
-      width: 100%;
-      height: 19%;
-      margin-top: 325px;
-      font-weight: 200;
-      
-     }
+  
  }
  
 /*--------------------------------------------------------------
@@ -1024,10 +1149,7 @@ height: 30rem;
     color: #978667;
 }
 /*css for Events */
-/* .mocktails
-{
-    height: 300px;
-} */
+
 
 /* Anshu css end */
 
