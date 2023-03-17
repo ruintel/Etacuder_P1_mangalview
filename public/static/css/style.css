@@ -377,7 +377,8 @@ margin-top: -150px;
     width: 10%;
     margin: 100px auto;
    }
- /* About us section start */
+
+/* About us section start */
 
  .about-section{
   display: flex;
@@ -385,11 +386,11 @@ margin-top: -150px;
   height: 650px;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 .leftdiv{
   height: 590px;
   width: 450px;
-  /* background-color: rgb(210, 214, 218); */
   background-color: rgb(223, 205, 188);
   text-align: justify;
   z-index: +2;
