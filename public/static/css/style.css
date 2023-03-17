@@ -149,7 +149,7 @@
     font-size: 18px;
     border: solid #ec784c 1px;
     border-radius: 25px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
   }
 
   .book-butn1:hover{
