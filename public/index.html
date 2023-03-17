@@ -5,17 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> The MangalView Residency</title>
-    <script>
-      function openPDF1() {
-          window.open( "templates/dining_menu.pdf", "PDF Viewer", "width=800,height=600,toolbar=no,scrollbars=yes");
-        } 
-      function openPDF2() {
-          window.open( "templates/rooftop_menu.pdf", "PDF Viewer", "width=800,height=600,toolbar=no,scrollbars=yes");
-        }          
-  </script>
+
+
+ 
 
 <!-- Title favicon-->
-<link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/public/static/images/favicon.ico">
 
  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -27,18 +22,30 @@
     <!-- jquery cdn link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <!-- css links -->
-    <link rel="stylesheet" href="/static/css/style.css">
-    <link rel="stylesheet" href="/static/css/blog.css"> 
+    <link rel="stylesheet" href="/public/static/css/style.css">
+    <link rel="stylesheet" href="/public/static/css/blog.css">
+    
     <!-- icons cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <!-- javascript link -->
-    <script src="/static/JS/mangal.js"></script>
-    <!-- Script for button click -->
-    <script>
-        function redirectToUrl() {
-          window.location.href = "https://book.themangalview.com/booking/book-rooms-themangalviewresidency";
-        }
-    </script>
+   
+        <!-- js -->
+        <script>
+          function openPDF1() {
+              window.open( "templates/dining_menu.pdf", "PDF Viewer", "width=800,height=600,toolbar=no,scrollbars=yes");
+            } 
+          function openPDF2() {
+              window.open( "templates/rooftop_menu.pdf", "PDF Viewer", "width=800,height=600,toolbar=no,scrollbars=yes");
+            }          
+      </script>
+    
+        <!-- Script for button click -->
+        <script>
+          function redirectToUrl() {
+            window.location.href = "https://book.themangalview.com/booking/book-rooms-themangalviewresidency";
+          }
+          </script>
+  
+
     <!-- Latest compiled and minified CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -55,6 +62,8 @@
   </div>
   
   <nav class="first-nav"> 
+    
+    
     <ul>
        <li class="social-icons">
         
@@ -67,19 +76,14 @@
   </nav> 
 <!-- main navigation bar start  -->
 
-<nav class="Main_navbar"id="NavBar">
-     <nav class="navbar navbar-expand-lg" id="header-nav" role="navigation">
-  
-    <button class="navbar-toggler" id="checkbtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto me-2">
-
+<nav class="Main_navbar" id="NavBar"> 
   <div class="logo">
-    <a href="#"><img src="/static/images/logo image(1).png" alt="Logo"></a>
+    <a href="#"><img src="/public/static/images/logo image(1).png" alt="Logo"></a>
   </div>
 
   <div class="pages">
-  <ul class="navigation"id="menu">
+
+  <ul class="navigation" id="menu">
     <li><a href="/index.html">Home</a></li>
     <li><a href="/templates/ourstory1.html">Our Story</a></li>
     <li><a href="/templates/facilities1.html">Rooms & Facilities </a></li>
@@ -100,28 +104,28 @@
   <!-- first card -->
   <div class="all_cards_video">
     <div class="card_image_div"> 
-      <img src="/static/images/banquet-01-min (1).jpeg" alt="">
+      <img src="/public/static/images/banquet-01-min (1).jpeg" alt="">
     </div>
     <div class="card_text_div"> <p>BANQUET HALL</p> </div>
 </div>
   <!-- first card -->
   <div class="all_cards_video">
     <div class="card_image_div"> 
-      <img src="/static/images/DELUXE ROOM TCM-01-min (1).jpeg" alt="">
+      <img src="/public/static/images/DELUXE ROOM TCM-01-min (1).jpeg" alt="">
     </div>
     <div class="card_text_div"><p>ROOMS</p> </div>
 </div>
   <!-- first card -->
   <div class="all_cards_video">
     <div class="card_image_div"> 
-      <img src="/static/images/RESTAURANT 05-min (1).jpeg" alt="">
+      <img src="/public/static/images/RESTAURANT 05-min (1).jpeg" alt="">
     </div>
     <div class="card_text_div"> <p>DINING</p> </div>
 </div>
   <!-- first card -->
   <div class="all_cards_video">
     <div class="card_image_div"> 
-      <img src="/static/images/Roof_top_night-001-min.jpeg" alt="">
+      <img src="/public/static/images/Roof_top_night-001-min.jpeg" alt="">
     </div>
     <div class="card_text_div"> <p>ROOFTOP</p> </div>
 </div>
@@ -145,7 +149,7 @@
   </div>
   <!-- right div -->
       <div class="rightdiv">
-          <img src="/static/images/front_view.JPG" alt="">
+          <img src="/public/static/images/front_view.JPG" alt="">
       </div>
    </div>
 <!-- about us section end -->
@@ -156,15 +160,15 @@
       <section class="rooms_and_suits">
         
         <div class="big_div_no1">
-          <img src="/static/images/banquet-01-min.jpeg" alt="">
+          <img src="/public/static/images/banquet-01-min.jpeg" alt="">
         </div>
        
          <div class="small_div_no2">
-          <img src="/static/images/DELUXE ROOM TCM-01-min.jpeg" alt="">
+          <img src="/public/static/images/DELUXE ROOM TCM-01-min.jpeg" alt="">
           <!-- <p>Deluxe Rooms</p> -->
          </div>
          <div class="small_div_no3">
-          <img src="/static/images/VIEW FROM DELUXE ROOM-05-min.jpeg" alt="">
+          <img src="/public/static/images/VIEW FROM DELUXE ROOM-05-min.jpeg" alt="">
           <!-- <p> Rooms</p> -->
          </div>
       </section>
@@ -190,27 +194,27 @@
 <!-- facilities top text card section -->
 <div class="facility_text_section">
     <div class="card_of_facility">
-    <img src="/static/images/car parking.jpg" alt=""id="imficon01">
+    <img src="/public/static/images/car parking.jpg" alt=""id="imficon01">
     <h3 class="title1">Private Parking</h3>
     <p class="description">Its not easy to drive into the old city. So we got you covered. 
                            Park in at take ride to the city for effortless tours.</p>
    </div> 
   <!--  -->
     <div class="card_of_facility">
-    <img src="/static/images/coctail glass.jpg" alt="" id="imficon02">
+    <img src="/public/static/images/coctail glass.jpg" alt="" id="imficon02">
     <h3 class="title">Rooftop Restaurant</h3>
     <p class="description">Sink into the magnificant view of the city with delicious food under the sky.</p>
   </div> 
   <!--  -->
     <div class="card_of_facility">
-    <img src="/static/images/mobilewifi-mangalview.jpg" alt=""id="imficon03"> 
+    <img src="/public/static/images/mobilewifi-mangalview.jpg" alt=""id="imficon03"> 
     <h3 class="title3">High Speed Wifi   </h3>
     <p class="description">Internet is basic need of the century. Without hassel 
                            of cryptic passwords and speed limits, enjoy the freedom.</p>
   </div>
   <!--  -->
     <div class="card_of_facility">
-    <img src="/static/images/coctail glass.jpg" alt="" id="imficon02">
+    <img src="/public/static/images/coctail glass.jpg" alt="" id="imficon02">
     <h3 class="title">Restaurant</h3>
     <p class="description">Experience the taste of Rajasthan in our pure veg family dining. 
                            Only open for inhouse guests.</p>
@@ -225,11 +229,11 @@
         <!--  -->
         <div class="circle_leftside_div">
         <div class="pics-div">
-          <img class="mt-1 mb-4" src="/static/images/Roof_top_night-001-min.jpeg" alt="" >
-          <img class="mt-1 mb-4" src="/static/images/IMG-0767-002-min.jpg" alt="">
-          <img class=" mt-1 mb-4" src="/static/images/ROOF TOP RESTAURANT -003-min.jpeg" alt="" >
-          <img class="  mt-1 mb-4" src="/static/images/view from Roof Top-004-min.jpeg" alt="" >
-          <img class="  mt-1 mb-4" src="/static/images/IMG_1805-005-min.jpeg" alt="">
+          <img class="mt-1 mb-4" src="/public/static/images/Roof_top_night-001-min.jpeg" alt="" >
+          <img class="mt-1 mb-4" src="/public/static/images/IMG-0767-002-min.jpg" alt="">
+          <img class=" mt-1 mb-4" src="/public/static/images/ROOF TOP RESTAURANT -003-min.jpeg" alt="" >
+          <img class="  mt-1 mb-4" src="/public/static/images/view from Roof Top-004-min.jpeg" alt="" >
+          <img class="  mt-1 mb-4" src="/public/static/images/IMG_1805-005-min.jpeg" alt="">
         </div>
       </div>
         <!--  -->
@@ -263,11 +267,11 @@
 
       <div class="circle_leftside_div">
         <div class="pics-div">
-          <img src="/static/images/RESTAURANT 004-min.jpeg" alt="" class="  mt-1 mb-4">
-          <img src="/static/images/IMG_9873-002-min.JPG" alt="" class="  mt-1 mb-4">
-          <img src="/static/images/IN HOUSE DINING-003-min.jpeg" alt="" class="  mt-1 mb-4">
-          <img src="/static/images/RESTAURANT 05-min.jpeg" alt="" class="  mt-1 mb-4">
-          <img src="/static/images/IMG_9869-001-min.JPG" alt="" class="  mt-1 mb-4">
+          <img src="/public/static/images/RESTAURANT 004-min.jpeg" alt="" class="  mt-1 mb-4">
+          <img src="/public/static/images/IMG_9873-002-min.JPG" alt="" class="  mt-1 mb-4">
+          <img src="/public/static/images/IN HOUSE DINING-003-min.jpeg" alt="" class="  mt-1 mb-4">
+          <img src="/public/static/images/RESTAURANT 05-min.jpeg" alt="" class="  mt-1 mb-4">
+          <img src="/public/static/images/IMG_9869-001-min.JPG" alt="" class="  mt-1 mb-4">
         </div>
       </div>
           </section>
@@ -329,44 +333,45 @@
         <!-- Review 1 -->
     
      <div class="paragraph ">
-      <ol class="none">
+      <ol>
         <li>24 Hours check-in check-out facility. </li>
         <li>Free breakfast</li>
         <li>Pure vegetarian Dining & Restaurant, No Bar!</li>
       </ol>
     
-     
+     </div>
   </div>
       </div>
-    </div>
+      
+  
      
 <!-- testimonial section ends -->
 
-<!-- =====footer section start======== -->
-<div class="footer_section" style="margin-top: 100px;">
-  <div class="firstrow_footer">
-  <div class="logo-sec-footer">
-   <img src="/static/images/mangalViewLogo-transparent.png" alt="">
- </div>
-<!--  -->
- <div class="center_logo_div1_first_row"> 
-   <img src="/static/images/logo-crop-image.png" alt="">
- </div>
-
- <div class="blog_sec">
-  <p1>Address </p1> 
-  <p> The Mangal View Residency, SHARMA COLONY, Rajasthan Mahila Vidyalaya Road, Old City,
-     Brahmpuri, Udaipur, Rajasthan</p>
- </div>
-</div>
-<!-- second row start -->
-<div class="secondrow_footer">
- <div class="copyright_div">
-   <p>The MangalView Residency © 2023 </p>
- </div>
-
-<div class="footer_icons_div1">
-  <p>
+   <!-- =====footer section start======== -->
+   <div class="footer_section"style="margin-top:0px;">
+    <div class="firstrow_footer">
+    <div class="logo-sec-footer">
+     <img src="/public/static/images/mangalViewLogo-transparent.png" alt="">
+   </div>
+  <!--  -->
+   <div class="center_logo_div1_first_row"> 
+     <img src="/public/static/images/logo-crop-image.png" alt="">
+   </div>
+  
+   <div class="blog_sec">
+    <p1>Address </p1> 
+    <p> The Mangal View Residency, SHARMA COLONY, Rajasthan Mahila Vidyalaya Road, Old City,
+       Brahmpuri, Udaipur, Rajasthan</p>
+   </div>
+  </div>
+  <!-- second row start -->
+  <div class="secondrow_footer">
+   <div class="copyright_div">
+     <p>The MangalView Residency © 2023 </p>
+   </div>
+  
+  <div class="footer_icons_div1">
+    <p>
       <a href="https://www.facebook.com/profile.php?id=100088826498731"><i class="fab fa-facebook" id="footer_icons"></i></a>
       <!-- <a href="#"><i class="fab fa-linkedin"id="footer_icons"></i></a> -->
       <a href="https://www.instagram.com/udaipur_hotel_mangal/"><i class="fab fa-instagram"id="footer_icons"></i></a>
@@ -383,19 +388,10 @@
      <!-- footer section end # -->
 
  <!-- javascript link -->
- <script src="/static/JS/style.js"></script>
+ <script src="/public/static/JS/style.js"></script>
 
 
 
- </div>
- <div class="right_side_div">
-  <p> <a href="#">   Privacy Policy </a>|
-   <a href="#"> Terms & conditions</a> |
-  <a href="#"> Sitemap </a> </p>   
-</div>
-</div>
-</div> 
-<!-- footer section end -->
 
 </body>
 </html>
