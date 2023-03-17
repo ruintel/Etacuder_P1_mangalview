@@ -197,11 +197,7 @@ justify-content: space-around;
 width: 100%;
 height: auto;
 }
-.leftdiv{
-    width: 100%;
-    height: auto;
-    background-color:rgba(252, 139, 9, 0.993);
-}
+
 .rightdiv{
     width: 100%;
     height: auto;
