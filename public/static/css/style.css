@@ -68,7 +68,9 @@
       width: 100%;
       
     }
+    
   }
+  
 
 
   /* main navigation bar start */
@@ -79,7 +81,6 @@
     top: 48px;
     height: 100px;
     display: flex;
-    justify-content: space-between;
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -94,8 +95,7 @@
      height: 100px;
     width: 30%;
     align-items: center;
-
-
+    
   }
   
   .logo a img {
@@ -108,6 +108,7 @@
   .pages{
     width: 70%;
     text-align: center;
+    height: auto;
   }
   
   .navigation {
@@ -119,9 +120,7 @@
     justify-content: start;
   }
   
-  .navigation li {
-    margin-right: 20px;
-  }
+ 
   
   .navigation li:last-child {
     margin-right: 0;
@@ -132,12 +131,10 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 15px;
+    padding-inline: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .last-butn{
-    padding-left: 60px;
-  }
+ 
   .navigation li a:hover {
   color: orangered;
   }
@@ -149,7 +146,7 @@
     font-size: 18px;
     border: solid #ec784c 1px;
     border-radius: 25px;
-    /* margin-left: 300px; */
+    
   }
 
   .book-butn1:hover{
@@ -164,8 +161,7 @@
       height: auto;
       display: block;
       align-items: center;
-  
-      background-color: rgba(231, 228, 228, 0.2);
+      background-color: rgba(231, 228, 228, 0.9); 
      
     }
     .pages{
@@ -194,7 +190,43 @@
     height: 35px;
   }
 
+
+  nav.sticky{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+   
   }
+  nav.sticky li a {
+    color: white;
+    }
+
+  .navbar-toggler{
+    display: block;
+  }
+
+
+  }
+
+
+
+   /* sticky navbar */
+   nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+   
+  }
+  nav.sticky li a {
+    color: white;
+    }
+
 
 
 
