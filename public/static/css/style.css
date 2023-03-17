@@ -880,10 +880,10 @@ img{
       width: 400px;
       padding-top: 30px;
       box-sizing: border-box;
-      color:white; 
+      color: rgb(137, 134, 134); 
    }
     .blog_sec p1{
-       color: white; 
+       color: rgb(137, 134, 134); 
     }
     .addr{
        font-size: 20px; 
@@ -900,7 +900,7 @@ img{
       text-align: center;
       width: 33%;
       height: auto;
-      color: white; 
+      color: rgb(137, 134, 134); 
     }
     .footer_icons_div1{
       text-align: center;
@@ -910,7 +910,7 @@ img{
      #footer_icons{
        font-size: 40px;
        text-align: center;
-      color: white; 
+      color: rgb(137, 134, 134); 
       margin-top: -50px;
       padding-inline: 10px;
      }
@@ -920,10 +920,10 @@ img{
       width: 33%;    
       box-sizing: border-box;
       height: auto;
-      color: white; 
+      color: rgb(137, 134, 134); 
     }
     .right_side_div a{
-      color: white;
+      color:rgb(137, 134, 134);
     }
     @media only screen and (max-width: 700px) {
     
