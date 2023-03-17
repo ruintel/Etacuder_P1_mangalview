@@ -75,7 +75,7 @@
   }  
   @media screen and (max-width:600px){
     .about-section{
-      background: url(/public/static/images/hotel_logo-min.jpeg) no-repeat left;
+      background: url(/static/images/hotel_logo-min.jpeg) no-repeat left;
       background-size: 100%;
       overflow: hidden;
       margin-top: -500px;
