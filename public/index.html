@@ -6,8 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> The MangalView Residency</title>
 
-
- 
+    <!-- js -->
+    <script>
+      function openPDF1() {
+          window.open( "templates/dining_menu.pdf", "PDF Viewer", "width=800,height=600,toolbar=no,scrollbars=yes");
+        } 
+      function openPDF2() {
+          window.open( "templates/rooftop_menu.pdf", "PDF Viewer", "width=800,height=600,toolbar=no,scrollbars=yes");
+        }          
+  </script>
 
 <!-- Title favicon-->
 <link rel="icon" type="image/x-icon" href="/static/images/favicon.ico">
@@ -27,25 +34,14 @@
     
     <!-- icons cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-   
-        <!-- js -->
-        <script>
-          function openPDF1() {
-              window.open( "templates/dining_menu.pdf", "PDF Viewer", "width=800,height=600,toolbar=no,scrollbars=yes");
-            } 
-          function openPDF2() {
-              window.open( "templates/rooftop_menu.pdf", "PDF Viewer", "width=800,height=600,toolbar=no,scrollbars=yes");
-            }          
-      </script>
-    
-        <!-- Script for button click -->
-        <script>
-          function redirectToUrl() {
-            window.location.href = "https://book.themangalview.com/booking/book-rooms-themangalviewresidency";
-          }
-          </script>
-  
-
+    <!-- javascript link -->
+    <script src="/static/JS/mangal.js"></script>
+    <!-- Script for button click -->
+    <script>
+        function redirectToUrl() {
+          window.location.href = "https://book.themangalview.com/booking/book-rooms-themangalviewresidency";
+        }
+    </script>
     <!-- Latest compiled and minified CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -74,15 +70,19 @@
   </nav> 
 <!-- main navigation bar start  -->
 
-<nav class="Main_navbar" id="NavBar">
+<nav class="Main_navbar">
+     <nav class="navbar navbar-expand-lg" id="header-nav" role="navigation">
   
+    <button class="navbar-toggler" id="checkbtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto me-2">
+
   <div class="logo">
     <a href="#"><img src="/static/images/logo image(1).png" alt="Logo"></a>
   </div>
 
   <div class="pages">
-
-  <ul class="navigation" id="menu">
+  <ul class="navigation">
     <li><a href="/index.html">Home</a></li>
     <li><a href="/templates/ourstory1.html">Our Story</a></li>
     <li><a href="/templates/facilities1.html">Rooms & Facilities </a></li>
@@ -135,7 +135,11 @@
         
         
 <!-- about us section start -->
-<div class="about-section"> 
+<div class="about-section">
+  <!-- <div class="row">
+    <p2>....</p2>
+  </div> -->
+ 
   <div class="leftdiv">
     <h1 class="about-us">About Us</h1>
        <p>
@@ -332,44 +336,44 @@
         <!-- Review 1 -->
     
      <div class="paragraph ">
-      <li>
-        <ol>24 Hours check-in check-out facility. </ol>
-        <ol>Free breakfast</ol>
-        <ol>Pure vegetarian Dining & Restaurant, No Bar!</ol>
-      </li>
+      <ol class="none">
+        <li>24 Hours check-in check-out facility. </li>
+        <li>Free breakfast</li>
+        <li>Pure vegetarian Dining & Restaurant, No Bar!</li>
+      </ol>
     
-     </div>
+     
   </div>
       </div>
-  
+    </div>
      
 <!-- testimonial section ends -->
 
-   <!-- =====footer section start======== -->
-   <div class="footer_section"style="margin-top: 100px;">
-    <div class="firstrow_footer">
-    <div class="logo-sec-footer">
-     <img src="/images/mangalViewLogo-transparent.png" alt="">
-   </div>
-  <!--  -->
-   <div class="center_logo_div1_first_row"> 
-     <img src="/images/logo-crop-image.png" alt="">
-   </div>
-  
-   <div class="blog_sec">
-    <p1>Address </p1> 
-    <p> The Mangal View Residency, SHARMA COLONY, Rajasthan Mahila Vidyalaya Road, Old City,
-       Brahmpuri, Udaipur, Rajasthan</p>
-   </div>
-  </div>
-  <!-- second row start -->
-  <div class="secondrow_footer">
-   <div class="copyright_div">
-     <p>The MangalView Residency © 2023 </p>
-   </div>
-  
-  <div class="footer_icons_div1">
-    <p>
+<!-- =====footer section start======== -->
+<div class="footer_section" style="margin-top: 100px;">
+  <div class="firstrow_footer">
+  <div class="logo-sec-footer">
+   <img src="/static/images/mangalViewLogo-transparent.png" alt="">
+ </div>
+<!--  -->
+ <div class="center_logo_div1_first_row"> 
+   <img src="/static/images/logo-crop-image.png" alt="">
+ </div>
+
+ <div class="blog_sec">
+  <p1>Address </p1> 
+  <p> The Mangal View Residency, SHARMA COLONY, Rajasthan Mahila Vidyalaya Road, Old City,
+     Brahmpuri, Udaipur, Rajasthan</p>
+ </div>
+</div>
+<!-- second row start -->
+<div class="secondrow_footer">
+ <div class="copyright_div">
+   <p>The MangalView Residency © 2023 </p>
+ </div>
+
+<div class="footer_icons_div1">
+  <p>
       <a href="https://www.facebook.com/profile.php?id=100088826498731"><i class="fab fa-facebook" id="footer_icons"></i></a>
       <!-- <a href="#"><i class="fab fa-linkedin"id="footer_icons"></i></a> -->
       <a href="https://www.instagram.com/udaipur_hotel_mangal/"><i class="fab fa-instagram"id="footer_icons"></i></a>
@@ -390,6 +394,15 @@
 
 
 
+ </div>
+ <div class="right_side_div">
+  <p> <a href="#">   Privacy Policy </a>|
+   <a href="#"> Terms & conditions</a> |
+  <a href="#"> Sitemap </a> </p>   
+</div>
+</div>
+</div> 
+<!-- footer section end -->
 
 </body>
 </html>
