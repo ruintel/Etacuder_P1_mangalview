@@ -3,6 +3,11 @@
 	padding:0;
 	box-sizing: border-box;
 }
+
+.pic_cover_propty{
+  object-fit: cover;
+}
+
 .header_section{
   height: 150px;
 }
