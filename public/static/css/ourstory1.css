@@ -9,6 +9,11 @@
     font-family: "Open Sans",sans-serif;
     box-sizing: border-box;
   }
+
+
+.pic_cover_propty{
+  object-fit: cover;
+}
   
   body{
     min-height: auto;
