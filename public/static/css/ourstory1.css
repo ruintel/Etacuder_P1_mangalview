@@ -11,9 +11,9 @@
   }
 
 
-.pic_cover_propty{
-  object-fit: cover;
-}
+
+ 
+
   
   body{
     min-height: auto;
@@ -26,6 +26,7 @@
   .about-section{
     background: url(/static/images/hotel_logo-min.jpeg) no-repeat left;
     background-size: 55%;
+     object-fit: cover;
     /* background-color: #fdfdfd; */
     /* overflow: hidden; */
     height: 650px;
