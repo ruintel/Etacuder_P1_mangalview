@@ -86,7 +86,7 @@
 
 .slide-title {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 .slide-text {
@@ -171,16 +171,12 @@ height: auto;
 
 
 }
-.paragraph{
-  text-align: center;
-}
 .none{
   list-style-type: none;
 }
 
 .testimonials{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 30px;
     text-align: center;
     
 }
@@ -192,9 +188,10 @@ height: auto;
     margin-top: 40px;
 }
 /* css */
-.paragraph
+.rightdiv_box
 {
   box-sizing: border-box;
+  text-align: justify;
 }
 /* Media query */
 @media screen and (max-width: 600px) {
