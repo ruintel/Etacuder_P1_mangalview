@@ -166,7 +166,7 @@ height: auto;
 .rightdiv_tes_sec{
     width: 50%;
     height: 500px;
-    background-color: rgb(197, 166, 135);
+    background-color: rgb(100 64 27 / 30%);
     
 
 
@@ -192,6 +192,8 @@ height: auto;
 {
   box-sizing: border-box;
   text-align: justify;
+  padding-left: 200px;
+  padding-top: 20px;
 }
 /* Media query */
 @media screen and (max-width: 600px) {

@@ -1124,7 +1124,7 @@ img{
     /* second row start */
     .secondrow_footer{
        display: flex;
-      justify-content: space-between; 
+      /* justify-content: space-between;  */
       height: 50px;
       margin-top: 5px; 
     }
