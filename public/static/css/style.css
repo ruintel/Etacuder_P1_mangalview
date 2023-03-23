@@ -877,6 +877,13 @@ img{
 .circle_leftside_div{
   width: 35%;
   height: 20rem;
+
+  /* height: 100%;
+  width: 70%; */
+  text-align: center;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .text-container {
@@ -945,21 +952,19 @@ img{
   
   }
   .pics-div {
-    /* height: 85%; */
-    /* width: 25%; */
+    
+  
     height: 100%;
     width: 70%;
     text-align: center;
     margin: auto;
     position: relative;
     box-sizing: border-box;
-    border-radius: 50%;
+    /* border-radius: 50%; */
      
   }
- .pics-div p{
-    color: #978667;
-  }
-  .pics-div img {
+ 
+  .circle_leftside_div img {
     position: absolute;
     top: 0;
     right: 0;
