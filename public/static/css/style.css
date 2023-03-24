@@ -7,6 +7,10 @@
 .pic_cover_propty{
   object-fit: cover;
 }
+#pic_cover_contact{
+  object-fit: fill;
+}
+
 
 .header_section{
   height: 150px;
@@ -129,7 +133,7 @@
   .logo a img {
     text-align: center;
     vertical-align: center;
-    object-fit: cover;
+    object-fit: fill;
     width: 250px;
     height: 55px;
   }
@@ -1170,6 +1174,10 @@ img{
     }
     .right_side_div a{
       color:rgb(137, 134, 134);
+    }
+
+    .footer_margin{
+      margin-bottom: 150px;
     }
 
     @media only screen and (max-width: 700px) {
