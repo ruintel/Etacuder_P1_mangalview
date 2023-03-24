@@ -59,6 +59,17 @@
     font-size: 24px;
   }
 
+  .heading{
+    font-size: 38px;
+    font-weight: 300;
+    color: rgb(68, 13, 13);
+    text-align: center;
+  }
+  .sub-heading
+  {
+    color: #978667;
+    font-weight: 300;
+  }
   @media only screen and (max-width: 700px) {
   
     .first-nav {
@@ -447,11 +458,7 @@ margin-top: -150px;
   padding: 45px;
   box-sizing: border-box;
 }
-.about-us{
-  text-align: center;
-  font-weight: 300;
-  color: rgb(68, 13, 13);
-}
+
 .rightdiv{
   height: 650px;
   width: 550px;
@@ -766,13 +773,7 @@ text-align: center;
 .mysecion02{
   min-height: 1100px;
 }
-.myfiest{
-  text-align: center;
-  font-size: 38px;
-  font-weight: 300;
-  color: rgb(68, 13, 13);
-  opacity: 0.8;
-}
+
 .facility_text_section{
   color: gray;
   margin-top: 80px;
@@ -1263,14 +1264,8 @@ height: 30rem;
     height: 100%;
     width: 100%;
 }
-.heading
-{
-    color: maroon;
-}
-.sub-heading
-{
-    color: #978667;
-}
+
+
 /*css for Events */
 
 
