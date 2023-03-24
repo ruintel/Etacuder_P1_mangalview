@@ -912,6 +912,14 @@ img{
     letter-spacing: 3px;
   }
 
+  #tc_left {
+    margin-right: 80px;
+  }
+
+  #tc_right {
+    margin-left: 80px;
+  }
+
 
 
 @media only screen and (max-width: 700px) {
