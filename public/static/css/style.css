@@ -875,14 +875,10 @@ img{
   margin-bottom: 50px;
 
 }
-.circle_leftside_div{
+.circle_div{
   width: 400px;
   height: 400px;
-
-  /* height: 100%;
-  width: 70%; */
   text-align: center;
-/*   margin: auto; */
   position: relative;
   box-sizing: border-box;
 }
@@ -912,12 +908,13 @@ img{
     letter-spacing: 3px;
   }
 
-  #tc_left {
+  #cd_left {
     margin-right: 80px;
   }
 
-  #tc_right {
+  #cd_right {
     margin-left: 80px;
+
   }
 
 
