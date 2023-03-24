@@ -868,11 +868,12 @@ img{
 .amenities-image-text-section{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   height: 25rem;
   width: 100%;
   margin-top: 84px;
   margin-bottom: 50px;
+  justify-content: center;
 
 }
 .circle_div{
@@ -913,7 +914,7 @@ img{
   }
 
   #cd_right {
-    margin-left: 80px;
+    margin-left: 200px;
 
   }
 
@@ -930,7 +931,7 @@ img{
   }
 
 
-  .circle_leftside_div{
+  .circle_div{
     width: 400px;
     height: 400px;
   }
@@ -971,7 +972,7 @@ img{
      
   }
  
-  .circle_leftside_div img {
+  .circle_div img {
     position: absolute;
     top: 0;
     right: 0;
