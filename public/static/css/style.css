@@ -6,6 +6,7 @@
 
 .pic_cover_propty{
   object-fit: cover;
+  
 }
 #pic_cover_contact{
   object-fit: fill;
@@ -239,7 +240,7 @@
     justify-content: center;
     height: 50px;
     width: 30%;
-    object-fit: cover;
+    object-fit: fill;
     /* background-color: yellow; */
   }
    
@@ -250,7 +251,7 @@
     position: absolute;
     top: 5px;
     left: 5px;
-    object-fit: cover;
+    object-fit: contain;
   }
 
 
@@ -939,6 +940,15 @@ img{
   .circle_div{
     width: 400px;
     height: 400px;
+  
+  }
+  #cd_left {
+    margin-right: 14px;
+  }
+
+  #cd_right {
+    margin-left: 0px;
+
   }
 
   .text-container {
@@ -1106,7 +1116,7 @@ img{
     height: 40%;
     width: 70%;
     margin-top: 42px;
-    object-fit: cover;	   
+    object-fit: fill;	   
    }
   
  /* ------ */
@@ -1184,7 +1194,7 @@ img{
     
       .footer_section{
         margin-top: 100px;
-        height: 600px;
+        height: 400px;
         width: 100%; 
       }
       .firstrow_footer{
@@ -1205,6 +1215,7 @@ img{
         height: 100px;
         width: 35%;
         margin-top: -58px;
+        object-fit: contain;
        } 
         .blog_sec{
           margin-top: 0px;
@@ -1265,6 +1276,13 @@ height: 30rem;
 .contact
 {    
     background-color: FEFBE9;
+}
+
+@media only screen and (max-width: 700px) {
+.iframe
+{
+  width: 100%;
+}
 }
 /*css for Facilities */
 .images
