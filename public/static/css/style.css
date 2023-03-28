@@ -460,7 +460,8 @@ margin-top: -150px;
   background-color: rgb(223, 205, 188);
   text-align: justify;
   z-index: +2;
-  margin-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 45px;
   box-sizing: border-box;
 }
@@ -492,7 +493,9 @@ margin-top: -150px;
   }
   .leftdiv{
     height: auto;
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     background-color: rgb(223, 205, 188);
     
@@ -502,7 +505,9 @@ margin-top: -150px;
     margin-top: 50px;
     box-sizing: border-box;
     height: auto;
-    width: 100%;    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;    
   }
 }
 /* -------------------------------------------- */
