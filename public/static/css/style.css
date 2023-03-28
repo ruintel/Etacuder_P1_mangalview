@@ -875,7 +875,6 @@ img{
 .amenities-image-text-section{
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
   height: 25rem;
   width: 100%;
   margin-top: 84px;
@@ -929,7 +928,7 @@ img{
 
 @media only screen and (max-width: 700px) {
   .amenities-image-text-section{
-    display: flex;
+    display: block;
     text-align: center;
     height: auto;
     width: 100%;
@@ -939,16 +938,18 @@ img{
 
 
   .circle_div{
-    width: 400px;
+    text-align: center;
+    margin: auto;
+    width: 96%;
     height: 400px;
   
   }
   #cd_left {
-    margin-right: 14px;
+    margin-right: auto;
   }
 
   #cd_right {
-    margin-left: 0px;
+    margin-left: auto;
 
   }
 
@@ -957,8 +958,20 @@ img{
     height: auto;
     padding: 40px;
     text-align: center;
-    
   }
+  .text-container h2 { 
+    text-align: center;
+  }
+  
+  .text-container p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgb(107, 107, 107);
+    width: auto;
+    text-align: justify;
+  }
+ 
+
 
 }
 
@@ -1072,7 +1085,7 @@ img{
       margin: auto;    
     }
     .pics-div {
-       width: 90%;
+      width: 90%;
       height: 85%;
       text-align: center;
       border: solid white 1px;
@@ -1085,8 +1098,8 @@ img{
       object-fit: cover;	    
     }
   
- }
- 
+ } 
+
 
 /*--------------------------------------------------------------
   # Footer
