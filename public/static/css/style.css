@@ -466,7 +466,7 @@ margin-top: -150px;
   box-sizing: border-box;
 }
 
-.rightdiv{
+.rightdiv_home_page{
   height: 650px;
   width: 550px;
   z-index: -1;
@@ -479,7 +479,7 @@ margin-top: -150px;
   font-weight: 200;
 
 }
-.rightdiv img{
+.rightdiv_home_page img{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -501,7 +501,7 @@ margin-top: -150px;
     
     
   }
-  .rightdiv{
+  .rightdiv_home_page{
     margin-top: 50px;
     box-sizing: border-box;
     height: auto;
