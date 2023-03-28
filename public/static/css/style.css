@@ -959,6 +959,9 @@ img{
     padding: 40px;
     text-align: center;
   }
+  #sec_text_container{
+    margin-top: -56px;
+  }
   .text-container h2 { 
     text-align: center;
   }
