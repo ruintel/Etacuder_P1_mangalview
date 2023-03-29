@@ -14,9 +14,6 @@ function myfun(){
   
 }
 
-
-
-
 function myFunction() {
   var x = document.getElementById("pages");
   if (x.style.display === "none") {

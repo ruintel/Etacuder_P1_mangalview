@@ -18,131 +18,119 @@
   body{
     min-height: auto;
     display: block;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* background-color: #f1f1f1; */
   }
   
   .about-section{
     background: url(/static/images/hotel_logo-min.jpeg) no-repeat left;
     background-size: 55%;
      object-fit: cover;
-    /* background-color: #fdfdfd; */
-    /* overflow: hidden; */
-    height: 650px;
-    padding-top:100px;
-    /* border: solid black 1px; */
+    height: 40.625rem;
+    padding-top:6.25rem;
     box-sizing: border-box;
   }
   
   .inner-container{
     width: 55%;
-     height:650px; 
+     height:40.625rem; 
     float: right;
-    /* border: solid black 1px; */
     background-color: #fdfdfd;
-    padding: 100px;
-    /* border-left: none; */
-  box-shadow: rgba(14, 30, 37, 0.8) 2px 2px 1px 2px;
+    padding: 6.25rem;
+  box-shadow: rgba(14, 30, 37, 0.8) 0.125rem 0.125rem 0.0625rem 0.125rem;
   
   }
   .inner-container h1{
-    margin-bottom: 80px;
-    font-size: 100px;
+    margin-bottom: 5rem;
+    font-size: 6.25rem;
     font-weight: 1000;
   }
   
   .text{
-    font-size: 12px;
+    font-size: 0.75rem;
     color: #545454;
-    line-height: 30px;
-    /* text-align: justify; */
-    margin-bottom: 40px;
-    margin-top: -90px;
+    line-height: 1.875rem;
+    margin-bottom: 2.5rem;
+    margin-top: -5.625rem;
     text-align: left;
     
-    /* font-family: 'Tangerine', serif; */
-    /* font-family: 'Dancing Script',serif; */
+    
     
   }
   h1{
   color: black;
    font-family: 'Amita',serif;
-   font-size: 22px;
-  /* text-shadow: 0 0 3px orange, 0 0 5px orange; */
-  
+   font-size: 1.375rem;
   }
   
   .skills{
     display: flex;
     justify-content: space-between;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 0.8125rem;
   }  
-  @media screen and (max-width:600px){
+  @media screen and (max-width:37.5rem){
     .about-section{
       background: url(/static/images/hotel_logo-min.jpeg) no-repeat left;
       background-size: 100%;
       overflow: hidden;
-      margin-top: -500px;
+      margin-top: -31.25rem;
       box-sizing: border-box;
     }
     .inner-container{
       width: 100%;
-      margin-top: 900px;
+      margin-top: 56.25rem;
       overflow: hidden;
       background-color: #fdfdfd;
-    box-shadow: rgba(14, 30, 37, 0.8) 2px 2px 1px 2px;    
+    box-shadow: rgba(14, 30, 37, 0.8) 0.125rem 0.125rem 0.0625rem 0.125rem;    
     }
     .inner-container h1{
-      margin-bottom: 80px;
-      font-size: 100px;
+      margin-bottom: 5rem;
+      font-size: 6.25rem;
       font-weight: 1000;
     }    
     .text{
-      font-size: 12px;
+      font-size: 0.75rem;
       color: #545454;
-      line-height: 30px;
-      margin-bottom: 40px;
-      margin-top: -90px;
+      line-height: 1.875rem;
+      margin-bottom: 2.5rem;
+      margin-top: -5.625rem;
       text-align: left;      
     }
     h1{
     color: black;
      font-family: 'Amita',serif;
-     font-size: 22px;
+     font-size: 1.375rem;
     }    
     .skills{
       display: flex;
       justify-content: space-between;
       font-weight: 700;
-      font-size: 13px;
+      font-size: 0.8125rem;
     }    
   }
 
 
   span{
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
-  padding: 10px;
-  width: 500px;
+  padding: 0.625rem;
+  width: 31.25rem;
   }
   span:hover{
   background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
   color: #fff;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   transition: 0.5s;
   
   }
   .active{
   background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
   color: #fff;
-  border-radius: 20px;  
+  border-radius: 1.25rem;  
   }  
   .ourstory{
-    margin-top: -100px;
-    padding-bottom: 30px;
+    margin-top: -6.25rem;
+    padding-bottom: 1.875rem;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 0.625rem;
   }
