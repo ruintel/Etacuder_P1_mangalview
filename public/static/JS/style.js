@@ -13,3 +13,12 @@ function myfun(){
   document.getElementById("NavBar").background=red;
   
 }
+
+function myFunction() {
+  var x = document.getElementById("pages");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

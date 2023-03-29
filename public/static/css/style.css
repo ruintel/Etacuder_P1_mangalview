@@ -94,7 +94,7 @@
   
 
 
-  /* main navigation bar start */
+   /* main navigation bar start */
   #checkbox{
     width: 1.4375rem;
     height: 1.875rem;
@@ -128,10 +128,11 @@
      height: 6.25rem;
     width: 28%;
     align-items: center;
+  
     
   }
   
-  .logo a img {
+  .logo img {
     text-align: center;
     vertical-align: center;
     object-fit: fill;
@@ -149,7 +150,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-   align-items: center;
+    align-items: center;
     display: flex;
     justify-content: start;
   }
@@ -188,9 +189,7 @@
     color: white;
     border: solid white 0.0625rem;
   }
-  #reject{
-    display: none;
-  }
+ 
 
   @media only screen and (max-width: 43.75rem {
 
@@ -203,6 +202,9 @@
     .checkbox{
       margin-right: 0.0625rem;
       display: block;
+      position: relative;
+      z-index: 18;
+      /* right: 0px; */
       
     }
     .Main_navbar {
@@ -210,8 +212,8 @@
       top: 3rem;
       height: 3.75rem;
       display: block;
-      align-items: center; 
-      background-color: rgba(231, 228, 228, 0.9); 
+      align-items: center;
+      background-color: white;
      
     }
     .pages{
@@ -221,12 +223,10 @@
       background-color: lightslategray;
       text-align: center;
       display: none;
-      
+      position: relative;
+      z-index: 17;
     }
-    #reject{
-      display: block;
-      float: left;
-    }
+  
      
   .navigation {
     list-style: none;
@@ -236,7 +236,7 @@
     justify-content: center;
      }
   .logo{   
-    display: flex;
+    display: block;
     justify-content: center;
     height: 3.125rem;
     width: 30%;
@@ -273,8 +273,6 @@
 
 
   }
-
-
 
    /* sticky navbar */
    nav.sticky{
@@ -315,7 +313,14 @@
   }
   
  
-
+  @media only screen and (max-width: 700px) {
+  .videocontainer{
+    width: 100%;
+    height: auto;
+    margin-top: 108px;
+  
+  }
+}
   @media(min-aspect-ratio: 16/9){
      .back-video{
       width: 100%;
@@ -477,7 +482,7 @@ margin-top: 9.375rem;
   font-weight: 200;
 
 }
-.rightdiv img{
+.rightdiv_home_page img{
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -491,7 +496,9 @@ margin-top: 9.375rem;
   }
   .leftdiv{
     height: auto;
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     background-color: rgb(223, 205, 188);
     
@@ -501,7 +508,9 @@ margin-top: 9.375rem;
     margin-top: 3.125rem;
     box-sizing: border-box;
     height: auto;
-    width: 100%;    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;    
   }
 }
 /* -------------------------------------------- */
@@ -874,7 +883,6 @@ img{
 .amenities-image-text-section{
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
   height: 25rem;
   width: 100%;
   margin-top: 5.25rem;
@@ -928,7 +936,7 @@ img{
 
 @media only screen and (max-width: 43.75rem) {
   .amenities-image-text-section{
-    display: flex;
+    display: block;
     text-align: center;
     height: auto;
     width: 100%;
@@ -956,8 +964,23 @@ img{
     height: auto;
     padding: 2.5rem;
     text-align: center;
-    
   }
+  #sec_text_container{
+    margin-top: -56px;
+  }
+  .text-container h2 { 
+    text-align: center;
+  }
+  
+  .text-container p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgb(107, 107, 107);
+    width: auto;
+    text-align: justify;
+  }
+ 
+
 
 }
 
@@ -1071,7 +1094,7 @@ img{
       margin: auto;    
     }
     .pics-div {
-       width: 90%;
+      width: 90%;
       height: 85%;
       text-align: center;
       border: solid white 0.0625rem;
@@ -1084,8 +1107,8 @@ img{
       object-fit: cover;	    
     }
   
- }
- 
+ } 
+
 
 /*--------------------------------------------------------------
   # Footer
@@ -1210,6 +1233,7 @@ img{
         height: 4.375rem;
         width: 100%;
         text-align: center;
+	       
       }
        .center_logo_div1_first_row img{
         height: 6.25rem;
