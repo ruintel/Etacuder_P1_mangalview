@@ -94,7 +94,7 @@
   
 
 
-  /* main navigation bar start */
+   /* main navigation bar start */
   #checkbox{
     width: 23px;
     height: 30px;
@@ -128,15 +128,16 @@
      height: 100px;
     width: 28%;
     align-items: center;
+  
     
   }
   
-  .logo a img {
+  .logo img {
     text-align: center;
     vertical-align: center;
     object-fit: fill;
     width: 250px;
-    height: 55px;
+    height: 60px;
   }
   .pages{
     width: 70%;
@@ -149,7 +150,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-   align-items: center;
+    align-items: center;
     display: flex;
     justify-content: start;
   }
@@ -315,7 +316,14 @@
   }
   
  
-
+  @media only screen and (max-width: 700px) {
+  .videocontainer{
+    width: 100%;
+    height: auto;
+    margin-top: 108px;
+  
+  }
+}
   @media(min-aspect-ratio: 16/9){
      .back-video{
       width: 100%;
@@ -388,7 +396,7 @@ margin-top: -150px;
         justify-content: center;
         height: auto;
         width: 100%;
-        margin-top: -50px;
+        margin-top: -30px;
            
          }
          .all_cards_video{
