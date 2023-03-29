@@ -200,6 +200,12 @@ flex-wrap: wrap;
   padding-left: 12.5rem;
   padding-top: 1.25rem;
 }
+.slider{
+  top: 1.90rem;
+ }
+ sup{
+  text-align: justify;
+ }
 /* Media query */
 @media screen and (max-width: 43.75rem) {
 .hero{
@@ -216,25 +222,32 @@ height: auto;
   height: 25rem;
 }
 .testimonials{
-  font-size: 1.875rem;
-  font-weight: 300;
   text-align: center;
   
 }
 
-.rightdiv{
+/* .rightdiv_box{
     width: 100%;
     height: auto;
     background-color: rgb(235, 172, 109);   
 
+} */
+.rightdiv_box
+{
+  width: 100%;
+  height: auto; 
+  box-sizing: border-box;
+  text-align: start;
+  padding-left: 2.5rem;
+  padding-top: 1.25rem;
+}
+.rightdiv_box ul{
+  padding-right: 4rem;
 }
 
-.testimonials{
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-align: center;
-    
-}
+
+
+
     
 
 .rounding{
