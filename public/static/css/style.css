@@ -191,9 +191,7 @@
   }
  
 
-  @media only screen and (max-width: 43.75rem {
-
-
+  @media only screen and (max-width: 43.75rem){
     #checkbox{
       background-color: rgba(231, 228, 228, ); 
       display: block;
