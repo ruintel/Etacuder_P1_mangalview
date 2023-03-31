@@ -21,7 +21,7 @@
   }
   
   .about-section{
-    background: url(/static/images/hotel_logo-min.jpeg) no-repeat left;
+    background: url(/public/static/images/hotel_logo-min.jpeg) no-repeat left;
     background-size: 55%;
      object-fit: cover;
     height: 40.625rem;
@@ -72,13 +72,14 @@
       background: url(/static/images/hotel_logo-min.jpeg) no-repeat left;
       background-size: 100%;
       overflow: hidden;
-      margin-top: -31.25rem;
+      margin-top: -45.313rem;
       box-sizing: border-box;
     }
     .inner-container{
       width: 100%;
       margin-top: 56.25rem;
       overflow: hidden;
+      padding: 5.25rem;
       background-color: #fdfdfd;
     box-shadow: rgba(14, 30, 37, 0.8) 0.125rem 0.125rem 0.0625rem 0.125rem;    
     }
@@ -93,7 +94,9 @@
       line-height: 1.875rem;
       margin-bottom: 2.5rem;
       margin-top: -5.625rem;
-      text-align: left;      
+      text-align: justify;  
+      margin-left: -2.687rem;
+      width: 340px;    
     }
     h1{
     color: black;

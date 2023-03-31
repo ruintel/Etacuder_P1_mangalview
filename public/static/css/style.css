@@ -57,7 +57,7 @@
   }
   
   .social-icons a {
-    margin-left: -0rem;
+    margin-left: 1.25rem;
     margin-right: 1.25rem;
     margin-top: 0.75rem;
   }
@@ -1310,13 +1310,23 @@ height: 30rem;
 {    
     background-color: FEFBE9;
 }
-
+.contactp {
+height: 450px;
+width: 500px;
+}
 @media only screen and (max-width: 43.75rem) {
 .iframe
 {
   width: 100%;
+  /* background-color: yellow; */
+  /* margin-right: 70px; */
+}
+.contactp {
+height: 450px;
+width: 300px;
 }
 }
+
 /*css for Facilities */
 .images
 {
