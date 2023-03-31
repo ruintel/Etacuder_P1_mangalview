@@ -203,6 +203,10 @@
       display: block;
       margin-right: 1.25rem;
     }
+    .first-list{
+    style="padding-left:63px"
+    }	    
+	  
     .checkbox{
       margin-right: 0.0625rem;
       display: block;
