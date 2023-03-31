@@ -147,9 +147,9 @@
   }
   .pages{
     width: 70%;
-    text-align: center;
     height: auto;
     display: block;
+    text-align: center;
   }
   
   .navigation {
@@ -203,9 +203,7 @@
       display: block;
       margin-right: 1.25rem;
     }
-    .first-list{
-    style="padding-left:63px"
-    }	    
+       
 	  
     .checkbox{
       margin-right: 0.0625rem;
@@ -228,8 +226,8 @@
       margin-top: 2.3rem;
       width: 100%;
       height: auto;
-      background-color: lightslategray;
-      text-align: center;
+      background-color: #202123;
+      text-align: start;
       display: none;
       position: relative;
       z-index: 17;
@@ -957,14 +955,16 @@ img{
   .circle_div{
     width: 25rem;
     height: 25rem;
+    text-align: center;
+    margin: auto;
   
   }
   #cd_left {
-    margin-right: 0.875rem;
+    margin-left: 0.5rem;
   }
 
   #cd_right {
-    margin-left: 0rem;
+    margin-left: 0.5rem;
 
   }
 
