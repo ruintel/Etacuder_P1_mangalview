@@ -32,10 +32,34 @@
 <!-- Add Firebase products that you want to use -->
 <script src="https://www.gstatic.com/firebasejs/11.24.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/11.24.0/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/11.24.0/firebase-database.js"></script>    
+<script src="https://www.gstatic.com/firebasejs/11.24.0/firebase-database.js"></script>  
+    
 </head>
 <body>
- 
+    
+    <style>
+    /* css for contact us */
+  .imgc
+  {
+  height: 30rem;
+  
+  }
+  .contact
+  {    
+      background-color: FEFBE9;
+  }
+  .alert{
+    text-align: center;
+    padding:10px;
+    background:#79c879;
+    color:#fff;
+    margin-bottom:10px;
+    display:none;
+  }
+  
+  
+  </style>
+    
   <!-- header section start -->
   <div>
   <div class="header_section">
@@ -100,25 +124,39 @@
   </div>
   </div>
 <div class="col col-lg-6 col-md-12 col-sm-12 mt-2">
-   <h4 class="Font pt-3 sub-heading"> Get in touch!</h4>
-    <form id="contact-form" class="col-lg-6 col-sm-6" method="post " style="width: 80%;"> 
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" required>
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea class="form-control" id="message" rows="5" required></textarea>
-            </div><br>
-            <button type="submit" class="btn" style="background-color: #978667; color: white;" >Submit</button>
-    </form>
-          
+    
+    <h4 class="Font pt-3 sub-heading">Get in touch!</h4>     
+       <div class="contact">
+
+  <div class="alert">Your message has been sent</div>
+  <form id="contactForm">
+    <p>
+      <label class="form-label">Name</label>
+      <input class="form-control" type="text" name="name" id="name" required>
+    </p>
+    <!-- <p>
+      <label>Company</label>
+      <input type="text" name="company" id="company">
+    </p> -->
+    <p>
+      <label class="form-label">Email Address</label>
+      <input class="form-control" type="email" name="email" id="email" required>
+    </p>
+    <!-- <p>
+      <label>Phone Number</label>
+      <input type="text" name="phone" id="phone">
+    </p> -->
+    <p class="full">
+      <label class="form-label">Message</label>
+      <textarea class="form-control" name="message" rows="5" id="message"></textarea>
+    </p>
+    <p class="full">
+      <button type="submit">Submit</button>
+    </p>
+  </form>
 </div>
 </div>
+    </div>
 </div>
 </iframe>
 <!--  -->
