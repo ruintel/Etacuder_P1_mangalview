@@ -92,7 +92,10 @@
       width: 100%;
       
     }
-    
+      .social-icons a {
+      margin-left: -0rem;
+    margin-top: 0.75rem;	      
+  }
   }
   
 
