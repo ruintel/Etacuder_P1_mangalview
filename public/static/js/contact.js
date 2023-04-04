@@ -1,4 +1,7 @@
-// Initialize Firebase (ADD YOUR OWN DATA)
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
+
+// Initialize Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyBhPC9Z4vKAtEwHWixuBt-oBg6z0b1DM50",
   authDomain: "mangalview-75142.firebaseapp.com",
@@ -10,7 +13,18 @@ const firebaseConfig = {
   measurementId: "G-6NY3RFPEG9"
 };
 
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+
+// Initialize Realtime Database and get a reference to the service
+const db = getDatabase();
+const reference = ref(db, 'users/' + userID);
+
+set(reference, 
+  {
+    name: name,
+    email: email,
+    message: message
+  });
 
 // Reference messages collection
 var messagesRef = firebase.database().ref('messages');
