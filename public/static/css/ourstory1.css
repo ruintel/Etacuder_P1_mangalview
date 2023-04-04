@@ -70,10 +70,11 @@
   @media screen and (max-width:37.5rem){
     .about-section{
       background: url(/static/images/hotel_logo-min.jpeg) no-repeat left;
-      background-size: 100%;
+      background-size: 120%;
       overflow: hidden;
-      margin-top: -45.313rem;
+      margin-top: -43.313rem;
       box-sizing: border-box;
+      padding-top: 75px;
     }
     .inner-container{
       width: 100%;
@@ -95,7 +96,7 @@
       margin-bottom: 2.5rem;
       margin-top: -5.625rem;
       text-align: justify;  
-      margin-left: -4.2rem;
+      margin-left: -4.5rem;
       width: 341px;    
     }
     h1{
