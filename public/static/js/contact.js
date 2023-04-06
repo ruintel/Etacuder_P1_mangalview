@@ -3,14 +3,14 @@ import { getDatabase } from "firebase/database";
 
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBhPC9Z4vKAtEwHWixuBt-oBg6z0b1DM50",
-  authDomain: "mangalview-75142.firebaseapp.com",
-  databaseURL: "https://mangalview-75142-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "mangalview-75142",
-  storageBucket: "mangalview-75142.appspot.com",
-  messagingSenderId: "558135774564",
-  appId: "1:558135774564:web:e27b9f88d28d640a64fe71",
-  measurementId: "G-6NY3RFPEG9"
+  apiKey: "AIzaSyDLta5EVoPcLSHEi9xCWNHp2xAs5gbCa58",
+  authDomain: "mangalview-b957f.firebaseapp.com",
+  databaseURL: "https://mangalview-b957f-default-rtdb.firebaseio.com",
+  projectId: "mangalview-b957f",
+  storageBucket: "mangalview-b957f.appspot.com",
+  messagingSenderId: "1030102602209",
+  appId: "1:1030102602209:web:3d9f8b86c72b6aceb3c2a0",
+  measurementId: "G-Y592183BWF"
 };
 
 const app = initializeApp(firebaseConfig);
