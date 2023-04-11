@@ -1012,7 +1012,7 @@ img{
 
   #cd_right {
     /* margin-left: 0.5rem; */
-    margin-left: 3.7rem;
+    margin-left: 3.5rem;
     margin-right: auto;
     text-align: center;
     height: 18rem;
@@ -1027,6 +1027,11 @@ img{
     text-align: center;
 
   }
+	
+.pro-heading{
+margin-top: 63px;
+}
+	
   #sec_text_container{
     margin-top: -56px;
   }
